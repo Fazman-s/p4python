@@ -55,7 +55,6 @@ def replaceSurrounded(mat):
             if (mat[i][j] == '-'):
                 mat[i][j] = 'X'
 
-# Driver code
 if __name__ == '__main__':
     M, N = map(int, input().split())
     mat = [list(input().strip()) for _ in range(M)]
